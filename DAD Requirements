@@ -1,0 +1,28 @@
+DAD Requirements
+    
+    The system will allow for input voltages ranging 5V-12V
+          The system's default power configuration will be utilizing a 9V battery
+    
+    The system will operate as a data acquisition system and will NOT be a flight critical piece of hardware
+          The system will include data acquisition methods for acceleration, orientation, and altitude
+          The system will be rated for up to 20Gs of acceleration
+          The system will be rated for altitudes up to 10,000ft
+          The system will write data to a flash chip during flight and log all collected data to a microSD card at later-specified intervals throughout flight 
+          
+    The system will be programmed with the Arduino IDE
+          The system will operate using a Teensy 3.2 microcontroller
+          
+    The system will be turned on via toggle switch
+    
+    The system will begin its data logging state with the use of a button switch
+          This button will not stop its data logging state, only begin
+              Safety of potential vibration induced toggle
+    
+    The system will offer visual information of its state
+          The system will display a SOLID RED LED when recieving power
+          The system will display a BLINKING RED LED when actively logging data
+          The system will display a SOLID GREEN LED after data has successfully been written to the microSD card
+          
+    The system will be small enough to fit in a small diameter rocket
+          2 in inner diameter
+          Length over width

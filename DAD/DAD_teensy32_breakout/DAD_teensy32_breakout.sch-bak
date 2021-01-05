@@ -1,0 +1,69 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_NXP_Kinetis:MKL02Z32VFG4 U?
+U 1 1 5FE81642
+P 3500 5250
+F 0 "U?" H 3500 6831 50  0000 C CNN
+F 1 "MKL02Z32VFG4" H 3500 6740 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 3650 4025 50  0001 L TNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3800 4450 50  0001 L BNN
+	1    3500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:0475890001 J?
+U 1 1 5FE8B107
+P 1050 3200
+F 0 "J?" H 1113 3925 50  0000 C CNN
+F 1 "0475890001" H 1113 3834 50  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_AB_Female_0475890001" H 1250 3400 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/475890001_sd.pdf" H 1250 3500 60  0001 L CNN
+F 4 "WM17143CT-ND" H 1250 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "0475890001" H 1250 3700 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1250 3800 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1250 3900 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/475890001_sd.pdf" H 1250 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0475890001/WM17143CT-ND/1832255" H 1250 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT MICRO USB AB 5P SMD RA" H 1250 4200 60  0001 L CNN "Description"
+F 11 "Molex" H 1250 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1250 4400 60  0001 L CNN "Status"
+	1    1050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LP38691SD-3.3 U?
+U 1 1 5FE8FE35
+P 4450 1100
+F 0 "U?" H 4450 1442 50  0000 C CNN
+F 1 "LP38691SD-3.3" H 4450 1351 50  0000 C CNN
+F 2 "Package_SON:WSON-6-1EP_3x3mm_P0.95mm" H 4450 1100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lp38691.pdf" H 4450 1100 50  0001 C CNN
+	1    4450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L teensy:Teensy3.2 U?
+U 1 1 5FE949DA
+P 7850 4050
+F 0 "U?" H 7850 5687 60  0000 C CNN
+F 1 "Teensy3.2" H 7850 5581 60  0000 C CNN
+F 2 "" H 7850 3300 60  0000 C CNN
+F 3 "" H 7850 3300 60  0000 C CNN
+	1    7850 4050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
